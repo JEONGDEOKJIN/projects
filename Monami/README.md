@@ -1,44 +1,104 @@
-# 프로젝트 소개 
+
+# 1️⃣ 프로젝트 개요
+
+## 1. 주제 선정 배경
+- 캐치 마인드 라는 게임에서 ‘그림만 보고, 이게 뭘 그렸는지 알아 맞추는거 재밌다!’ 라는 영감을 받고, 그림 일심 동체라는 프로젝트를 기획
+
+<br>
+
+## 2. 프로젝트 목표
+- 플레이어가 주어진 시간 안에 그림을 그리고, 상대방이 그린 그림만 보고 어떤 그림을 그렸는지를 맞추는 게임
 
 
-# 시작 가이드 
+<br>
+<br>
+  
+# 2️⃣ 주요 기능 및 UI
+
+| 구분                       | 설명                                                                                                                     |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| 회원관리                   | 회원가입 및 로그인 기능                                                                                                  |
+| 게시판 기능                | 글 생성, 글 조회(좋아요 순, 등록 순, 조회수 순, 태그 및 검색 기능), 페이지 네이션 기능, 댓글 및 대댓글 기능, 좋아요 기능 |
+| 채팅방 입장 및 실시간 소통 | socket 을 활용하여 다중 플레이어간 그림 및 텍스트 파일을 전송받을 수 있는 기능                                           |
+
+<details>
+  <summary> 📚 UI 상세  </summary>
 
 
-# stacks 
-### Environment
-![IntelliJ](https://img.shields.io/badge/IntelliJ-000000?style=for-the-badge&logo=IntelliJ%20IDEA&logoColor=white)
-![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?style=for-the-badge&logo=Visual%20Studio%20Code&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white)
-![Github](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white)             
+![](https://i.imgur.com/d969BHn.jpeg)
 
-### Config
-![Gradle](https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=Gradle&logoColor=white)         
-![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)        
+![](https://i.imgur.com/qr7FOU4.png)
 
-### Development
-![Java](https://img.shields.io/badge/Java-ED7014?style=for-the-badge)
-![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=Spring&logoColor=white)
-![Keycloak](https://img.shields.io/badge/Keycloak-66D7EB?style=for-the-badge&logoColor=white)
-### Test
-![Jacoco](https://img.shields.io/badge/Jacoco-C21325?style=for-the-badge)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=Javascript&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Strapi](https://img.shields.io/badge/Strapi-2F2E8B?style=for-the-badge&logo=Strapi&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=Next.js&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=Bootstrap&logoColor=white)
-![Material UI](https://img.shields.io/badge/Material%20UI-007FFF?style=for-the-badge&logo=MUI&logoColor=white)
+![](https://i.imgur.com/4ANB0bl.png)
 
-### Communication
-![Slack](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=Slack&logoColor=white)
-![Trello](https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=Trello&logoColor=white)
-![Notion](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white)
-![GoogleMeet](https://img.shields.io/badge/GoogleMeet-00897B?style=for-the-badge&logo=Google%20Meet&logoColor=white)
+![](https://i.imgur.com/7IaD7BK.png)
+
+![](https://i.imgur.com/mJKWNyq.jpeg)
 
 
-# 화면 구성 
+</details>
 
-# ERD
+ 
+<br>
+<br>
 
-# 디렉토리 구조 
+# 3️⃣ 역할 및 주요 기술 과제 
 
-# 주요 기능 
+<br>
+
+[역할] 게시물 목록 페이지의 Frontend 및 Backend
+
+<br>
+
+| 구분                                  | 설명                                                                       |
+| ----------------------------------- | ------------------------------------------------------------------------ |
+| [FE & BE] 게시글 글쓰기 기능                | form 태그에 게시글 작성 후 완료 버튼 누르면, POST 요청을 보내고 게시글 목록 페이지로 리디렉션 될 수 있게 구현<br> |
+| [FE & BE] 페이지네이션 기능                 | 특정 페이지 클릭시, 해당 페이지의 데이터만 fetch 될 수 있게 구현                                 |
+| [FE & BE] 게시판 목록 보여주기 기능            | data fetch 된 후, useEffect 의 의존성 설정된 변수에 데이터가 업데이트되면 렌더링 될 수 있게 구현        |
+| [FE & BE] 좋아요 기능                    | 해당 버튼 클릭시 '좋아요 테이블' 변경 후 '유저 및 게시글 테이블'에서 참조할 수 있게 구현                    |
+| [FE & BE] 태그 검색 및 추가 기능             | sequelize 상에서 검색된 요청 데이터를 포함하는 데이터만 가공하여 전달                              |
+| [FE & BE] 정렬 (최신순, 조회수, likes 순) 기능 | sequelize 상에서 정렬된 데이터를 DB 에서 호출하여 프론트로 전달                                |
+
+  <br>
+  <br>
+  
+
+# 4️⃣ 협업 방식
+
+| 구분      | 설명                                                        |                                                                                            |
+| ------- | --------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| 프로젝트 관리 | 노션 이슈트래킹, 칸반보드, 간트차트, 스프린트 등의 기능을 적극 활용하여 프로젝트 관리         | [📚프로젝트 관리 노션 링크](https://www.notion.so/Gant-chart-8c549ada55a64699adf6486b26cddc8d?pvs=4) |
+| 버전 관리   | Release branch, Dev branch 및 페이지별 branch 운영을 통해 체계적인 버전관리 |                                                                                            |
+
+
+<br>
+<br>
+
+
+# 5️⃣ 시연
+
+
+![](https://i.imgur.com/IYGUltd.jpeg)
+
+[🔗 프로젝트 시연  ](https://youtu.be/4upgLvmXIMg?si=-VpxfhTwq4ziru8e)
+
+  
+<br>
+<br>
+
+# 6️⃣ 산출물
+
+
+| 구분                                                                                                       |
+| ---------------------------------------------------------------------------------------------------------- |
+| [ERD](https://tropical-trouser-a8d.notion.site/ERD-bcb6ecc8a3a144bea1372adc80a653cd?pvs=4)                 |
+| [User Flow](https://tropical-trouser-a8d.notion.site/User-flow-a9b1a98f7081473a809041a168afdcaf?pvs=4)     |
+| [API 문서](https://docs.google.com/spreadsheets/d/1vhXxXnq8USwhTQ9C0xPuTlby4YMrF9Xb60H8jOam0qI/edit#gid=0) |
+| [PPT 발표 자료](https://tropical-trouser-a8d.notion.site/9513359c529b4d69891c145e707ef57d?pvs=4)           |
+
+<br>
+<br>
+
+# 7️⃣ 성과
+
+- Node.js 프로젝트 중 최우수 프로젝트 선정 (과정 내 및 과정 외 투표 기준)
