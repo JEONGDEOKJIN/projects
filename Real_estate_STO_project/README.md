@@ -64,7 +64,7 @@
 | ------- | --------------------------------------------------------- |
 | 프로젝트 관리 | 노션 이슈트래킹, 칸반보드, 간트차트, 스프린트 등의 기능을 적극 활용하여 프로젝트 관리         |
 | 버전 관리   | Release branch, Dev branch 및 페이지별 branch 운영을 통해 체계적인 버전관리 |
-- [노션 링크] (https://www.notion.so/Gant-chart-8c549ada55a64699adf6486b26cddc8d?pvs=4)
+[노션 링크](https://www.notion.so/Gant-chart-8c549ada55a64699adf6486b26cddc8d?pvs=4)
 
 
 
