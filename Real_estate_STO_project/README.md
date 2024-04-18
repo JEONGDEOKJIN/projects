@@ -83,18 +83,24 @@
 # 7️⃣ 산출물
 
 
+| 구분                                                                                                                                                                          |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [User flow](https://tropical-trouser-a8d.notion.site/User-flow-b20843090262417fa2bc877dc2a46520?pvs=4)                                                                      |
+| [어드민 요구사항 정의](https://docs.google.com/spreadsheets/d/12ZmKxAXc7FT7kGRa6ppcQjZ4lxzcqKPNQoAOcQuES2U/edit#gid=0)                                                               |
+| [ERD](https://dbdiagram.io/d/6541ab467d8bbd64653cf50b)                                                                                                                      |
+| [시퀀스 다이어그램](https://dbdiagram.io/d/6541ab467d8bbd64653cf50b)                                                                                                                |
+| [API 문서](https://docs.google.com/spreadsheets/d/1iFLJDipgi4e4pgQSRhGDqBqiKsqijfc35rkt_J2TOSE/edit?usp=sharing)                                                              |
+| [UI/UX 기획](https://www.figma.com/file/aBMZ7hFxCcddiVapcRQxbY/bounceCode_STO%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8?type=design&node-id=1%3A2&mode=design&t=qqG7J3A75UDOs5ka-1) |
+| [사용자 배포 링크](https://bouncesto.site/home)                                                                                                                                    |
+| [어드민 배포 링크](https://bs.admin.bouncesto.site/admin/dashboard)                                                                                                                |
 
+<br>
+<br>
 
 
 
 # 8️⃣ 프로젝트 시작하기 
-
-
----
-
-# 어드민 프로젝트 시작하기
-
-```BASH
+``` BASH
 # 프론트 실행
 # adminfrontend > admin 에서
 num run dev
