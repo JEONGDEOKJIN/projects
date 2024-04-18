@@ -36,6 +36,7 @@
 | Admin 대시보드 | [Admin] 최근 7일간의 매출, 공모금액, 거래금액, 회원가입수, 블랙리스트 유저, 최근 거래 등에 대한 확인                                       |
 
 <details>
+  <summary> 📚 UI 상세  </summary>
 ![](https://i.imgur.com/P1MqCsj.jpeg)
 
 ![](https://i.imgur.com/IztWRKN.jpeg)
