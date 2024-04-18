@@ -1,44 +1,102 @@
-# 프로젝트 소개 
+
+# 1️⃣ 프로젝트 개요
+
+## 1. 주제 선정 배경
+- ‘부동산 중개인 없이도 안전하게 거래할 수 있다면 거래 수수료를 아낄 수 있지 않을까.’ 라는 생각으로 프로젝트 시작
+
+<br>
+
+## 2. 프로젝트 목표
+- 실제 부동산 거래 사이트와 동일하게 매물 등록 및 거래할 수 있는 서비스를 만들자.
 
 
-# 시작 가이드 
+<br>
+<br>
+  
+# 2️⃣ 주요 기능 및 UI
+
+| 구분        | 설명                                                                          |
+| --------- | --------------------------------------------------------------------------- |
+| Admin 페이지 | 가입한 회원의 등급 관리. 건물주의 경우 실명인증 및 자격요건 검토를 통해 정식 판매업자로 등록                       |
+| 매물 리스트    | DB에서 거래 가능한 매물 데이터를 응답받아, Google map api 활용하여 검색, 필터, 분류, 클러스터링, ZOOM 기능 제공 |
+| 매물 등록     | 주소, 사용자 정보, 부동산 정보 등을 입력하여 졍식 매물로 인정받는 절차. kakao map 연동하여 미리보기 제공           |
+| 투표        | 사용자들이 해당 매물이 허위인지를 구분하는 투표를 진행. 투표 진행시 허위매물로 신고되면 해당 건물주는 판매자 자격 박탈         |
+| 매물 상세     | 해당 매물의 사진, 정보를 한 눈에 파악할 수 있는 페이지, 댓글 기능 및 거래 신청 가능                          |
+| 마이 페이지    | 회원 정보, 매물 등록 및 거래 내역을 확인할 수 있는 페이지                                          |
+
+<details>
+  <summary> 📚 UI 상세  </summary>
+
+![](https://i.imgur.com/QJN1Izk.jpeg)
+
+![](https://i.imgur.com/xkdz0CU.jpeg)
+
+![](https://i.imgur.com/Atwx05n.jpeg)
+
+![](https://i.imgur.com/kEnLeil.jpeg)
+
+![](https://i.imgur.com/ANLmePa.jpeg)
 
 
-# stacks 
-### Environment
-![IntelliJ](https://img.shields.io/badge/IntelliJ-000000?style=for-the-badge&logo=IntelliJ%20IDEA&logoColor=white)
-![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?style=for-the-badge&logo=Visual%20Studio%20Code&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white)
-![Github](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white)             
+</details>
 
-### Config
-![Gradle](https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=Gradle&logoColor=white)         
-![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)        
+ 
+<br>
+<br>
 
-### Development
-![Java](https://img.shields.io/badge/Java-ED7014?style=for-the-badge)
-![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=Spring&logoColor=white)
-![Keycloak](https://img.shields.io/badge/Keycloak-66D7EB?style=for-the-badge&logoColor=white)
-### Test
-![Jacoco](https://img.shields.io/badge/Jacoco-C21325?style=for-the-badge)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=Javascript&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Strapi](https://img.shields.io/badge/Strapi-2F2E8B?style=for-the-badge&logo=Strapi&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=Next.js&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=Bootstrap&logoColor=white)
-![Material UI](https://img.shields.io/badge/Material%20UI-007FFF?style=for-the-badge&logo=MUI&logoColor=white)
+# 3️⃣ 역할 및 주요 기술 과제 
 
-### Communication
-![Slack](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=Slack&logoColor=white)
-![Trello](https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=Trello&logoColor=white)
-![Notion](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white)
-![GoogleMeet](https://img.shields.io/badge/GoogleMeet-00897B?style=for-the-badge&logo=Google%20Meet&logoColor=white)
+<br>
+
+[역할] 매물 목록 페이지, 어드민 페이지 Frontend, Backend 및 배포 참여
+
+<br>
+
+| 구분                                           | 설명                                                                                                                                                     |
+| -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [FE] google map API 활용하여 필요한 기능 구현 하기        | • google map API 내의 Autocomplete 기능 사용하여 자동검색 및 마커 구현 • google map API 내의 MarkerCluster 기능 사용하여 개별 마커를 클러스터로 표현<br>                                    |
+| [FE] UI/UX 퍼블리싱                              | • styled-component 를 사용하여 벤치마킹 기업인 직방에서 제공하는 UX 포인트를 최대한 반영하기 위해 노력 • 지도 색상과 마커 색상을 커스텀하여 매물 정보를 한 눈에 파악할 수 있으면서, 공원, 학교 등의 주요 시설물 정보를 함께 제공할 수 있도록 설계 |
+| [FE&BE] 데이터 filter 및 sort 기능 구현              | • 사용자가 filter 또는 sort를 통해 선택한 키워드를 React-query 로 캐시해둔 데이터에서 filter 하여 목록 렌더링 • 매물 목록이 변경되면 google map api 의 marker 관리 함수에 매개변수로 전달하여 지도 화면도 싱크를 맞춤     |
+| [FE&BE] 모든 유저 조회 기능(GET) 및 업자 등급 관리 기능(POST) | '업자 승인' 버튼 클릭 시, BE 로 승인된 등급 POST 하고, 응답값을 상태변수에 저장하여 등급 UI 업데이트                                                                                       |
+| 배포                                           | NGINX 등을 이용하여 AWS EC2 에 프로젝트 배포 과정 참여                                                                                                                  |
+
+  <br>
+  <br>
+  
+
+# 4️⃣ 협업 방식
+
+| 구분      | 설명                                                        |                                                                           |
+| ------- | --------------------------------------------------------- | ------------------------------------------------------------------------- |
+| 프로젝트 관리 | 노션 이슈트래킹, 칸반보드, 간트차트, 스프린트 등의 기능을 적극 활용하여 프로젝트 관리         | [📚프로젝트 관리 노션 링크](https://www.notion.so/f47d6e32be124db197669425b771856d) |
+| 버전 관리   | Release branch, Dev branch 및 페이지별 branch 운영을 통해 체계적인 버전관리 |                                                                           |
 
 
-# 화면 구성 
+<br>
+<br>
 
-# ERD
 
-# 디렉토리 구조 
+# 5️⃣ 시연
 
-# 주요 기능 
+![](https://i.imgur.com/WRUAS5u.jpeg)
+
+[🔗유튜브 시연 : 부동산 매물 지도 구현 ](https://www.youtube.com/watch?v=g36ussMKr9A&embeds_referring_euri=https%3A%2F%2Fwww.notion.so%2F&feature=emb_imp_woyt)
+[🔗유튜브 시연 : 어드민 페이지 ](https://youtu.be/kpwI7VR-E9s?si=VLxWNllTEPPC9kaR)
+  
+<br>
+<br>
+
+# 6️⃣ 산출물
+
+
+| 구분                                                                                                   |
+| ------------------------------------------------------------------------------------------------------ |
+| [User flow](https://tropical-trouser-a8d.notion.site/FlowChart-7f0ff05047f747789935f47fb82a8e9b?pvs=4) |
+| [ERD](https://tropical-trouser-a8d.notion.site/ERD-672996733e4f4c25af31ee5e15998ef6?pvs=4)             |
+| [사용자 배포 링크](http://ec2-3-37-244-154.ap-northeast-2.compute.amazonaws.com/)                      |
+| [시퀀스 다이어그램](https://dbdiagram.io/d/6541ab467d8bbd64653cf50b)                                   |
+| [PPT 발표 자료](https://tropical-trouser-a8d.notion.site/PPT-3ba1b68af3654ca5b1a0e5a20cefce54?pvs=4)   |
+
+<br>
+<br>
+
