@@ -96,8 +96,11 @@
 | [ERD](https://tropical-trouser-a8d.notion.site/ERD-672996733e4f4c25af31ee5e15998ef6?pvs=4)             |
 | [사용자 배포 링크](http://ec2-3-37-244-154.ap-northeast-2.compute.amazonaws.com/)                      |
 | [시퀀스 다이어그램](https://dbdiagram.io/d/6541ab467d8bbd64653cf50b)                                   |
-| [PPT 발표 자료](https://tropical-trouser-a8d.notion.site/PPT-3ba1b68af3654ca5b1a0e5a20cefce54?pvs=4)   |
 
 <br>
 <br>
 
+
+# 7️⃣ 성과
+
+- React.js 프로젝트 중 최우수 프로젝트 선정 (과정 내 및 과정 외 투표 기준)
