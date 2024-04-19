@@ -42,11 +42,11 @@
 <br>
 <br>
 
-# 3️⃣ 역할 및 주요 기술 과제 
+# 3️⃣ 담당역할 및 주요 기술 과제 
 
 <br>
 
-[역할] 게시물 목록 페이지의 Frontend 및 Backend
+[담당역할] 게시물 목록 페이지의 Frontend 및 Backend
 
 <br>
 
