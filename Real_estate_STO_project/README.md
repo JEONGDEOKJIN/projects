@@ -56,11 +56,11 @@
 <br>
 <br>
 
-# 3️⃣ 역할 및 주요 기술 과제 
+# 3️⃣ 담당역할 및 주요 기술 과제 
 
 <br>
 
-[역할]  Admin 페이지 제작(Frontend) & 프로젝트 UI/UX 기획
+[담당역할]  Admin 페이지 제작(Frontend) & 프로젝트 UI/UX 기획
 
 <br>
 
