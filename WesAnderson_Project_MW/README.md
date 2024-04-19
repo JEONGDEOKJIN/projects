@@ -46,7 +46,7 @@
 
 <br>
 
-[담당역할] main 페이지의 frontend 담당
+[담당역할] main 페이지의 frontend 담당 (기여도 100%)
 
 <br>
 
