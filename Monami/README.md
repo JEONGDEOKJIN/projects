@@ -46,7 +46,7 @@
 
 <br>
 
-[담당역할] 게시물 목록 페이지의 Frontend 및 Backend
+[담당역할] 게시물 목록 페이지의 Frontend 및 Backend (기여도 100%)
 
 <br>
 
